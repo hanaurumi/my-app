@@ -40,12 +40,15 @@ export default function Page(){
 
 return (
   <div className="p-8 space-x-4"> 
-    <h1 className="mb-4">TODO管理アプリ</h1>
+    <h1 className="mb-4" >
+      TODO管理アプリ
+    </h1>
 
     <form className="mb-8">
       <input type="text" name={"title"} />
       <input type="date" name={"end_date"} />
       <input type="submit" value="追加"/>
+      
 
     </form>
 
@@ -58,5 +61,6 @@ return (
       </div>
      ))}
    </div>
+   
   )
 }
